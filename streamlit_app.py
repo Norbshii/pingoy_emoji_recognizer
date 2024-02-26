@@ -25,6 +25,10 @@ def app():
         of the image (e.g., digit recognition, traffic sign classification).
         Potential Applications:"""
     st.write(text)
+    st.write('Digit recognition: Identifying handwritten digits from 0-9.')
+    st.write('Traffic sign classification: Classifying different types of traffic signs.')
+    st.write('Character recognition: Recognizing characters from different alphabets.')
+    st.write("""Simple image classification: Classifying simple images into categories like animal/non-animal, vehicle/non-vehicle, etc.""")
     st.write('Emoji/Emoticon recognition: Identifying emojis from Sad, Neutral, Heart and Wow')
 
     # display choice of classifier
